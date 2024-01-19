@@ -1,0 +1,16 @@
+button {
+    background-color: rgb(170, 192, 207);
+    padding: 10px 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 8px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: #fff;
+    box-shadow: 0 0 20px blue;
+}

@@ -1,0 +1,7 @@
+.text {
+    width: 60%;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: blue;
+  }
