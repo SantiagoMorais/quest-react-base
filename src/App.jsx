@@ -1,6 +1,6 @@
 import './App.css'
-import Text from './assets/components/paragraph/paragraph.jsx'
-import Buttons from './assets/components/buttons/buttons.jsx'
+import StyledText from './assets/components/styledText/index.jsx'
+import Buttons from './assets/components/buttons/index.jsx'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         Quest React Base
       </h2>
       <h3>Desafio 1</h3>
-      <Text
+      <StyledText
         text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, magni pariatur? Eum esse voluptate pariatur sed assumenda nulla aut voluptatum deserunt, laborum consectetur recusandae quod non fugiat hic? Ratione, cum!'}
         setTextColor={'#fff'}
       />

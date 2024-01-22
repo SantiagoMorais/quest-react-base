@@ -1,6 +1,6 @@
-import './paragraph.css'
+import './index.css'
 
-const Text = ({ setBackgroundColor, setLetterSize, text, setTextColor }) => {
+const StyledText = ({ setBackgroundColor, setLetterSize, text, setTextColor }) => {
     return <p
         className="text"
         style={{ textTransform: setLetterSize, 
@@ -10,9 +10,9 @@ const Text = ({ setBackgroundColor, setLetterSize, text, setTextColor }) => {
     </p>
 }
 
-Text.defaultProps = {
+StyledText.defaultProps = {
     setLetterSize: 'uppercase',
     setBackgroundColor: 'cornflowerblue'
 }
 
-export default Text
+export default StyledText
